@@ -19,7 +19,7 @@
 }
 
 h2 {
-  font-family: "BigShouldersDisplay";
+  font-family: "BigShouldersDisplay", Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -29,7 +29,7 @@ h2 {
 p,
 span,
 a {
-  font-family: "LexendDeca";
+  font-family: "LexendDeca", Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -89,12 +89,14 @@ footer {
 .col:nth-child(1n) a {
   color: var(--primary);
 }
+
 .col:nth-child(2n) {
   background-color: var(--secondary);
 }
 .col:nth-child(2n) a {
   color: var(--secondary);
 }
+
 .col:nth-child(3n) {
   background-color: var(--tertiary);
 }
@@ -108,7 +110,7 @@ footer {
 }
 
 .card a {
-  background-color: white;
+  background-color: var(--very-light-gray);
   border-radius: 3rem;
   text-decoration: none;
   margin-right: auto;
@@ -163,5 +165,5 @@ footer {
 /* MISC */
 ::selection {
   background-color: var(--secondary);
-  color: var(--white);
+  color: var(--transparent-white);
 }
