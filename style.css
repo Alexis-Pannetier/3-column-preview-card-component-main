@@ -23,7 +23,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 2.5rem;
-  margin: 2rem 0;
+  margin: 1.75rem 0 2.25rem 0;
 }
 
 p,
@@ -44,6 +44,7 @@ body {
   min-height: 100vh;
   position: relative;
   margin: 0;
+  background-color: var(--very-light-gray);
 }
 
 main {
